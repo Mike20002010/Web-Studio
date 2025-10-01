@@ -3,7 +3,20 @@
 --nav-color: #212121;
 --text-color: #757575;
 --logo-color:#000000 ;
---h1-color: #FFFFFF;
---h1-second-color: #000000;
---h2-color: #212121;
+--primary-acecnt-color: #FFFFFF;
+--title-color: #212121;
+--background-color: #F5F4FA ;
+--footer-color: #2F303A;
+--broder-header-color: #ECECEC;
+--border-portfolio-color: #E0E0E0;
+--footer-addres-color: #FFFFFF99;
+}
+
+:root {
+--logo-font: 'Raleway', sans-serif;
+--main-font: 'Roboto', sans-serif;
+
+
+
+    
 }
