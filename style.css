@@ -15,8 +15,10 @@
 :root {
 --logo-font: 'Raleway', sans-serif;
 --main-font: 'Roboto', sans-serif;
+}
 
-
-
-    
+body {
+font-family: var(--main-font);
+color: var(--text-color);
+background-color: var(--background-color);
 }
