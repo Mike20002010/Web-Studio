@@ -1,0 +1,158 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+:root {
+--accent-color: #2196F3;
+--nav-color: #212121;
+--text-color: #757575;
+--logo-color:#000000 ;
+--primary-acecnt-color: #FFFFFF;
+--title-color: #212121;
+--background-color: #F5F4FA ;
+--footer-color: #2F303A;
+--broder-header-color: #ECECEC;
+--border-portfolio-color: #E0E0E0;
+--footer-addres-color: #FFFFFF99;
+}
+
+:root {
+--logo-font: 'Raleway', sans-serif;
+--main-font: 'Roboto', sans-serif;
+}
+
+body {
+font-family: var(--main-font);
+color: var(--text-color);
+letter-spacing: 2%;
+margin: 0;
+padding: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+
+.main {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.feature {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.work {
+	padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.team {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
